@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+html , body{
+  height: 100% !important;
+  width: 100% !important;
+  font-family: "Poppins","Sans-serif" !important;
+  color: #222222 !important;
 
-
+}
+.jumbotron{
+  padding: 1rem;
+  background-color: rgb(208, 211, 211);
+}
+.btn-primary{
+  background-color: blueviolet !important;
+  border: solid purple 1px !important;
+}
 
 
 
@@ -46,7 +59,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('img/mac.png') !important;
   position: fixed;
   display: block;
   top: 0;
@@ -68,9 +81,21 @@ figure {
   margin-block-start: 0px !important;
 }
 
+$grid-gutter-width: 0px !default;
 
-
-
+#footerend{
+  flex: 0 0 100%;
+	max-width: 100%;
+}
+.no-gutters {
+  margin-right: 0 !important;
+  margin-left: 0 !important;}
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
