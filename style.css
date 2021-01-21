@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+body{
+  margin:0 !important;
+  
+}
 html , body{
   height: 100% !important;
   width: 100% !important;
@@ -16,7 +20,9 @@ html , body{
   border: solid purple 1px !important;
 }
 
-
+#footerend{
+  padding: 0px !important;
+}
 
 
 
